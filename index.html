@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Desktop Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="image.png"class="background">
+
+  <!-- bottom player bar -->
+  <div class="player-bar">
+    <div class="left">
+      <img src="image.png" class="cover" alt="Album" />
+      <div class="song-info">
+        <h4>The Blessing(Live)</h4>
+        <p>Elevation worship,Kari Jobe,Cody Carnes</p>
+      </div>
+    </div>
+
+    <div class="middle">
+      <div class="controls">
+        <img src="shuffle.png" class="icon">
+        <img src="previous.png" class="icon">
+        <img src="play-button.png"class="icon big"id="playBtn" onclick="togglePlay()">
+        <img src="next.png" class="icon">
+        <img src="repeat-button.png" class="icon">
+
+      </div>
+      <div class="progress-row">
+        <span class="time start">0:00</span>
+        <div class="bar">
+          <div class="filled"></div>
+        </div>
+        <span class="time end">8:27</span>
+      </div>
+    </div>
+
+    <div class="right">
+      <img src="volume.png" class="icon">
+      <div class="volume-bar">
+        <div class="volume-fill"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
