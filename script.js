@@ -5,7 +5,7 @@ function togglePlay() {
     const bar = document.querySelector(".filled");
 
     if (isPlaying) {
-        btn.src = "play-button.png";   // show play
+        btn.src = "play-button.png";   
         bar.style.animationPlayState = "paused"; 
         isPlaying = false;
     } else {
