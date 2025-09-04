@@ -110,3 +110,51 @@ body {
   height:100%;
   background:#f7f9f8;
 }
+/* Existing CSS stays above */
+
+/* 🔹 For tablets and larger screens */
+@media (min-width: 768px) {
+  .player-bar {
+    padding: 15px 40px;
+  }
+  .song-info h4 {
+    font-size: 1rem;
+  }
+  .song-info p {
+    font-size: 0.85rem;
+  }
+  .volume-bar {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .left {
+    width: 35%;
+  }
+  .middle {
+    width: 45%;
+  }
+  .right {
+    width: 20%;
+  }
+  .cover {
+    width: 40px;
+  }
+  .song-info h4 {
+    font-size: 0.8rem;
+  }
+  .song-info p {
+    font-size: 0.65rem;
+  }
+  .icon {
+    width: 16px;
+    margin: 0 6px;
+  }
+  .big {
+    width: 24px;
+  }
+  .volume-bar {
+    display: none;
+  }
+}
+
