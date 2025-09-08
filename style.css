@@ -110,9 +110,6 @@ body {
   height:100%;
   background:#f7f9f8;
 }
-/* Existing CSS stays above */
-
-/* 🔹 For tablets and larger screens */
 @media (min-width: 768px) {
   .player-bar {
     padding: 15px 40px;
